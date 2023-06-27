@@ -1,0 +1,12 @@
+{
+  "name": "terraform-eks-nginx",
+  "version": "1.0.0",
+  "description": "Eks Terraform project for AWS",
+  "dependencies": {
+    "terraform-aws-modules/vpc/aws": "1.0.0",
+    "terraform-aws-modules/eks/aws": "2.0.0"
+  },
+  "devDependencies": {
+    "aws": "~> 4.46"
+  }
+}
